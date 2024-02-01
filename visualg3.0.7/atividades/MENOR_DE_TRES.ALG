@@ -1,0 +1,32 @@
+Algoritmo "menor_de_tres"
+// Jean Carlos Nogueira
+// Jean Carlos Nogueira 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 1/29/2024
+Var
+
+ a , b, c : inteiro
+
+Inicio
+
+      escreva("Primeiro valor: ")
+      leia(a)
+      escreva("Segundo valor: ")
+      leia(b)
+      escreva("Terceiro valor: ")
+      leia(c)
+      
+      se (a < b) e (a < c) entao
+         escreval("MENOR =",a)
+      senao
+           se (b < a) e (b < c) entao
+                escreval("MENOR =",b)
+           senao
+                escreval("MENOR =" ,c)
+           fimse
+
+      fimse
+
+
+Fimalgoritmo

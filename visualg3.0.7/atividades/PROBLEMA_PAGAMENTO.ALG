@@ -1,0 +1,26 @@
+Algoritmo "PROBLEMA_PAGAMENTO"
+
+Var
+
+   NOME : CARACTERE
+   VALOR, PAGAMENTO : REAL
+   HORAS : INTEIRO
+   
+
+Inicio
+
+      ESCREVA("NOME : ")
+      LEIA(NOME)
+      ESCREVA("VALOR DA HORA : ")
+      LEIA(VALOR)
+      ESCREVA("HORAS TRABALHADAS : ")
+      LEIA(HORAS)
+      
+      PAGAMENTO <- VALOR * HORAS
+      
+      ESCREVAL()
+      ESCREVA("O PAGAMENTO PARA ", NOME, " DEVE SER R$", PAGAMENTO:8:2)
+
+
+
+Fimalgoritmo
