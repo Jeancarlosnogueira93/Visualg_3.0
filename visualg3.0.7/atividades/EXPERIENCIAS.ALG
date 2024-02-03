@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "experiencias"
 // Jean Carlos Nogueira
 // Jean Carlos Nogueira
 // Descrição   : Aqui você descreve o que o programa faz! (função)
