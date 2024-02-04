@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "matriz_geral"
 Var
 
    n,i,j, soma, linha, coluna : inteiro
@@ -66,7 +66,7 @@ Inicio
    fimpara
 
    escreval
-   escreva("MATRIZ ALTERADA :")
+   escreval("MATRIZ ALTERADA :")
    para i de 0 ate n-1 faca
       para j de 0 ate n-1 faca
            escreva(mat[i,j]:3:1, " ")
